@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #1f2235;
+}
+
+/* Header (start )*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.header-contact img {
+  margin-right: 10px;
+  height: 30px;
+}
+
+.header-navbar a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #f7fbfb;
+  padding: 10px;
+}
+
+.header a:hover {
+  border-bottom: 2px solid #fff6e0;
+}
+/* Header (end) */
+
+/* content (start) */
+.content {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-0%, -50%);
+}
+.content img {
+  display: flex;
+  margin-left: 100px;
+  height: 430px;
+  width: 430px;
+  border-radius: 25px;
+}
+
+.content-title {
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+.content-title h1 {
+  width: 100%;
+  font-size: 9vh;
+  color: #ec4f65;
+}
+
+.content-title p {
+  word-spacing: 5px;
+  width: 600px;
+  color: #fff6e0;
+  font-size: 3vh;
+}
+
+.content-button {
+  margin-top: 30px;
+}
+.content-button a {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #eac696;
+  text-decoration: none;
+  color: #191919;
+  padding: 10px;
+}
+
+.content-tentang-saya-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.content-tentang-saya-image img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.content-tentang-saya-uraian {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.content-tentang-saya-uraian p {
+  width: 800px;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+}
+/* content (end) */
